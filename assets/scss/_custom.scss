@@ -1,0 +1,40 @@
+
+// @function paper_height($width) {
+//    @return $width * 10;
+// }
+
+@mixin vt-center {
+    top: 40%;
+}
+
+@mixin avoid-break {
+     @media print {
+        page-break-inside: auto;
+     }
+}
+
+.experience {
+    &__bullet {
+        list-style: square outside;
+        margin-left: 2.4rem;
+    }
+}
+.content {
+    &__left {
+        @media screen {
+            &::after {
+                content: "2025 © by Andrew Selkirk";
+            }
+        }
+    }
+}
+
+.contact {
+    &__item {
+        & > span {
+            @include vt-center;
+            font-size: 1.5rem;
+        }
+    }
+}
+

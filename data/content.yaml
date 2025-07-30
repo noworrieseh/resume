@@ -1,0 +1,332 @@
+BasicInfo:
+    FirstName: Andrew
+    LastName: Selkirk
+    Photo: img/avatar.png
+    Contacts:
+        - Icon: fas fa-phone
+          Info: "(226) 972-4561"
+        - Icon: fas fa-envelope
+          Info: andrew@selkirk.dev
+        - Icon: fab fa-linkedin
+          Info: '<a class="contact__link" href="https://linkedin.com/in/aselkirk/" target="_blank">in/aselkirk</a>'
+        - Icon: fab fa-github
+          Info: '<a class="contact__link" href="https://github.com/noworrieseh" target="_blank">GitHub</a>'
+
+Profile: |
+    Exceptional technical experience from over 30 years in the software industry
+    <blockquote>
+    <ul><li>27 years working with Java technologies</li>
+    <li>20 years working in multi-tier high performance enterprise environments</li>
+    <li>Proven background leading teams in deadline-oriented environments</li></ul></blockquote>
+    Sound knowledge of the Software Development Life Cycle (SDLC) utilizing Agile processes and in-depth knowledge of object oriented programming. Team management experience with hiring, mentoring and performance reviews. A strong believer in leading by example and demonstrate excellent communication skills to build strong working relationships.
+
+Experience:
+    - Employer: A.I. VALI
+      Place: Remote, ON
+      Positions:
+          - Title: Senior Software Developer
+            Date: Mar 2023 - Mar 2025
+            Details:
+                - Deliver endoscopic medical device utilizing A.I. technologies
+                - Transitioned project from R&D to shipping product
+                - Establish SDLC processes, provisioning, support, IT, and assisted with ISO13485 certification
+            Badges:
+                - Google Workspace
+                - Python
+                - GitHub
+                - Docker
+                - JIRA
+                - AWS
+                - REST
+                - Ubuntu
+                - GitHub Actions
+                - V4Linux
+                - OpenCV
+                - Tailscale
+                - IT Admin
+                - Agile/Scrum
+
+    - Employer: Trustwave
+      Place: Cambridge, ON
+      Positions:
+          - Title: Senior Engineering Director
+            Date: 2017 - 2023
+            Details:
+                - Manage and support all SIEM products and appliances.
+                - R&D projects including general REST client, kubernetes, AWS deployments, Parsing editor
+                - Team career development, reviews and interview. Manage Co-ops
+                - Co-ordinate with VP, Product Management,Support, MSSP, engineering leads
+            Badges:
+                - Java
+                - Git
+                - JIRA
+                - REST
+                - AWS
+                - Kubernetes
+                - OOP
+                - ETL
+                - Agile/Scrum
+
+          - Title: Engineering Director
+            Date: 2006 - 2017
+            Details:
+                - Manage software development projects
+                - Manage SIEM tier-3 engineering team and escalations
+                - Co-ordinate between Product Management, Customer Support, Development, QA, Documentation, and Executive teams
+                - Team career development, reviews and interviewing. Manage Co-ops
+                - Development projects including patch framework, image deployment, Windows agents (Log File Monitor, Windows Events)
+                - Created tools including key generation, high load data generation, support diagnostics,
+                - Administer legacy process systems (JIRA, SVN, build)
+            Badges:
+                - Java
+                - Maven
+                - Git
+                - JIRA
+                - Confluence
+                - REST
+                - Scripting
+                - AWS
+                - Kubernetes
+                - PXE
+                - VMWare
+                - GPG
+                - Linux
+                - Azure
+                - Agile/Scrum
+
+          - Title: Development Manager
+            Date: 2004 - 2006
+            Details:
+                - Manage team of 10 on SIEM development and tier-3 support
+                - Contributed to Common Criteria certification process
+                - Designed and implemented data summarization framework for reporting
+                - Contributing inventor to “Self Learning Event Parser” technology patent (US20070169038)
+            Badges:
+                - Java
+                - MS Project
+                - Regex
+                - JDBC
+                - MySQL
+                - SVN
+
+    - Employer: Intellitactics (Trustwave)
+      Place: Kitchener, ON
+      Positions:
+          - Title: Senior Developer/Team Lead
+            Date: 2001 - 2004
+            Details:
+                - Lead developer on thick client interface
+                - Implemented graph based subsystem for configuration and presentation
+                - Designed and implemented integrated build system
+            Badges:
+                - Java
+                - Swing
+                - Y-Files
+                - ANT
+                - CVS
+                - Starteam
+
+    - Employer: Web Pearls
+      Place: Kitchener, ON
+      Positions:
+          - Title: Senior Developer
+            Date: 1996 - 2001
+            Details:
+                - Main developer in a startup in online educational software
+                - Lead developer of PearlServer client/server technology
+                - Provided technical leadership in OEM partnership deal with Waterloo Maple which incorporated PearlServer technology in their MapleNet offering
+                - Developed semantic OpenMath rendering technology in partnership with Simon Fraser University
+                - Provided consulting services including business intelligence project
+                - Maintained IT infrastructure. Assisted in IT functions for sister companies
+            Badges:
+                - Java
+                - OpenMath
+                - Maple
+                - PHP
+                - CVS
+                - Bugzilla
+                - IT
+
+    - Employer: Newbridge Networks
+      Place: Kanata, ON
+      Positions:
+          - Title: Co-op Developer
+            Date: 1993 - 1995
+            Details:
+                - Feature development of Newbridge MainStreet software
+                - Designed testing procedures for software support of SONET optical networks
+                - Worked for internal software tools group
+                - Evaluation of new Configuration Management system
+            Badges:
+                - Solaris
+                - C
+                - TCL/TK
+                - Bash
+                - STS
+                - Continuous
+
+    - Employer: Natural Resources Canada
+      Place: Ottawa, ON
+      Positions:
+          - Title: Co-op Developer
+            Date: 1991 - 1993
+            Details:
+                - Supported a database for managing Canadian geophysical data for map generation
+                - Created data conversion tools between various formats of geophysical data
+            Badges:
+                - Solaris
+                - Fortran
+
+Education:
+    - Course: Bachelor of Mathematics
+      Place: University of Waterloo
+      Date: 1990 - 1995
+      Details: Interests in Computer science, Music, Social Work. Participated in Co-op program.
+
+References:
+    - Name: Terry Lowe
+      Relation: VP of Development
+      Contacts:
+          - Icon: fas fa-phone
+            Info: "(416) 804-3581‬"
+          - Icon: fas fa-envelope
+            Info: terry.em.low@gmail.com
+          - Icon: fab fa-linkedin
+            Info: '<a class="contact__link" href="https://www.linkedin.com/in/terry-low-88388/" target="_blank">LinkedIn</a>'
+          - Icon: fas fa-map-marker-alt
+            Info: Toronto, Canada
+
+Skills:
+    - Family: Leadership
+      Items:
+          - Team building
+          - Priorization
+          - Planning
+          - Mentoring
+          - Project management
+          - Tier 3 Support
+          - Common Criteria
+          - ISO13485
+
+    - Family: Programming
+      Items:
+          - Java
+          - Python
+          - C/C++
+          - Swift
+          - Bash
+          - JSON
+          - YAML
+          - XML
+          - Regex
+          - SQL
+          - HTML
+          - CSS
+          - JS
+          - JSP
+          - PHP
+          - TCL/TK
+          - Perl
+          - Fortran
+          - Pascal/Delphi
+          - OpenMath
+          - MathML
+          - Maple
+
+    - Family: DevOps
+      Items:
+          - GitHub
+          - GitHub Actions
+          - Maven
+          - ANT
+          - Jenkins
+          - JIRA
+          - Confluence
+          - Bitbucket
+          - Bugzilla
+          - Git
+          - Subversion
+          - CVS
+          - SCCS
+          - Starteam
+          - Grafana
+          - Nagios
+          - Terraform
+          - Ansible
+
+    - Family: Containers
+      Items:
+          - Docker
+          - Kubernetes
+          - Helm
+          - Portainer
+          - Compose
+          - LXC
+
+    - Family: Cloud
+      Items:
+          - AWS
+          - GCP
+          - Azure
+
+    - Family: Data Processing/Storage
+      Items:
+          - Kafka
+          - OpenSearch
+          - ElasticSearch
+          - MySQL
+          - PostgreSQL
+          - SQLServer
+          - Oracle
+          - SQLite3
+          - HSQLDB
+
+    - Family: Networking
+      Items:
+          - Tailscale
+          - OpenVPN
+          - DNS
+          - DHCP
+          - PXE
+          - iptables
+          - Ubiquity
+
+    - Family: Systems
+      Items:
+          - Windows
+          - MacOS
+          - IOS
+          - Linux (RHEL, SUSE, Ubuntu)
+          - Solaris
+
+    - Family: Misc
+      Items:
+          - TLS/SSH/RSA/GPG
+          - Xcode
+          - Windows WMI
+
+    - Family: Frameworks
+      Items:
+          - REST
+          - SDEE
+          - Checkpoint
+          - Windows Events
+          - Java (Swing, JDBC, Threading)
+          - OpenCV
+          - Video4Linux
+          - Flask
+          - Hugo
+          - eStreamer SDK
+
+    - Family: Software
+      Items:
+          - Microsoft Office/365
+          - Google Workspace
+
+Diplomas:
+    - SANS 503 Intrusion Detection In-Depth (2003)
+
+Interests:
+    - Retro computers
+    - OneWheel
+    - Kayaking

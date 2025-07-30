@@ -1,0 +1,27 @@
+baseURL = 'https://selkirk.dev/'
+languageCode = 'en-us'
+title = 'Andrew Selkirk Resume'
+theme = 'almeida-cv'
+disableKinds = ["page", "section", "taxonomy", "term", "rss", "sitemap"]
+
+
+enableRobotsTXT = true
+enableEmoji = true
+
+[params]
+enableMetaTags = true
+colorLight = "#fff"
+colorDark = "#666"
+colorPageBackground = "#ddd"
+colorPrimary = "#2C446F"
+colorSecondary = "#aaa"
+colorIconPrimary = "#fff"
+colorIconBackground = "#2C446F"
+colorRightColumnBackground = "#f5f5f5"
+colorRightColumnHeadingText = "#666"
+colorRightColumnBodyText = "#666"
+colorRightColumnIconPrimary = "#fff"
+colorRightColumnIconBackground = "#2C446F"
+pages = 1
+# Set this param to 'true' to swap the bar positions
+swapColumns = false
