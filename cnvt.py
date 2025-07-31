@@ -35,13 +35,13 @@ async def html_to_pdf(input_path: str, output_path: str):
 
         await page.goto(url, wait_until="networkidle")
         await page.emulate_media(media="screen")
-        # await page.wait_for_timeout(1000)
+        # await page.wait_for_timeout(10000)
 
         await page.pdf(
             path=output_path,
             page_ranges="1-1",
             width="8.5in",
-            height="22in",
+            height="19in",
             print_background=True,
             margin={"top": "0in", "bottom": "0in", "left": "0in", "right": "0in"},
         )

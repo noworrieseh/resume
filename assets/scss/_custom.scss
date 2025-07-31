@@ -1,4 +1,3 @@
-
 // @function paper_height($width) {
 //    @return $width * 10;
 // }
@@ -8,12 +7,24 @@
 }
 
 @mixin avoid-break {
-     @media print {
+    @media print {
         page-break-inside: auto;
-     }
+    }
+}
+
+.sideSection {
+    margin-bottom: 1rem;
 }
 
 .experience {
+    &__item {
+        &:not(:first-child) {
+            padding-top: 0rem;
+        }
+        margin-bottom: 1px;
+        margin-top: 1px;
+    }
+
     &__bullet {
         list-style: square outside;
         margin-left: 2.4rem;
@@ -27,6 +38,9 @@
             }
         }
     }
+    &__right {
+        @include shadow(0);
+    }
 }
 
 .contact {
@@ -38,3 +52,11 @@
     }
 }
 
+.references {
+    &__contact {
+        & > span {
+            top: 50%;
+            font-size: 1.1rem;
+        }
+    }
+}
