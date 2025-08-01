@@ -61,11 +61,16 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.12' 
+          cache: 'pip'
+
+      - name: Install Python deps
+        run: |
+          pip install -r requirements.txt
+          playwright install --only-shell chromium
+
       - name: Generate PDF
         run: |
-          pip install pytest-playwright
-          playwright install chromium
-          python cnvt.py
+          python ./cnvt.py
           cp result.pdf public/resume.pdf
 
       - name: Upload artifact
