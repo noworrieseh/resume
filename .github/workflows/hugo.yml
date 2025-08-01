@@ -56,6 +56,18 @@ jobs:
           hugo \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12' 
+      - name: Generate PDF
+        run: |
+          pip install pytest-playwright
+          playwright install chromium
+          python cnvt.py
+          cp result.pdf public/resume.pdf
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
