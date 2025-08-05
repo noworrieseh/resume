@@ -66,6 +66,7 @@ jobs:
                   HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
                   HUGO_ENVIRONMENT: production
               run: |
+                  echo "BaseURL: ${{ steps.pages.outputs.base_url }}"
                   hugo --cleanDestinationDir --baseURL "${{ steps.pages.outputs.base_url }}/"
 
             - name: Cache playwright binaries

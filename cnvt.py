@@ -18,10 +18,14 @@ async def html_to_pdf(input_path: str, output_path: str):
         url = request.url
 
         # Handle the prefixed '/' in style ref
-        if "/style" in url:
-            new_url = url.replace(
-                "/style", os.path.join(os.getcwd(), "public") + "/style", 1
-            )
+        if "style.main" in url:
+            index = url.find('/style.main')
+            #if index != -1:
+            new_url = "file://" + os.path.join(os.getcwd(), "public") + url[index:]
+            #new_url = url.replace(
+            #    "/style", os.path.join(os.getcwd(), "public") + "/style", 1
+            #)
+            print(new_url)
             await route.continue_(url=new_url)
         else:
             await route.continue_()
