@@ -39,8 +39,7 @@ jobs:
           && sudo dpkg -i ${{ runner.temp }}/hugo.deb
       - name: Install Dart Sass
         uses: dw-labs-org/dart-sass-gha@v1
-        with:
-          version: "1.77.2"
+
       - name: Checkout
         uses: actions/checkout@v4
         with:
