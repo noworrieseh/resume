@@ -6,9 +6,7 @@ build:
 	hugo --cleanDestinationDir
 
 pdf: build
-	pip install -r requirements.txt
-	./cnvt.py
+	uv run cnvt.py public/index.html public/resume.pdf
 
 clean:
 	rm -fr resources public *pdf
-

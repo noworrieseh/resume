@@ -1,2 +1,0 @@
-pytest_playwright==0.7.0
-pytest-playwright-asyncio==0.7.0

@@ -1,11 +1,14 @@
 #!/usr/bin/env python
+"""
+Usage: cnvt <src> <dest>
+"""
 
 import asyncio
 import os
+import sys
+from docopt import docopt
 from pathlib import Path
-
 from playwright.async_api import async_playwright
-
 
 async def html_to_pdf(input_path: str, output_path: str):
     input_file = Path(input_path).resolve()
@@ -13,14 +16,12 @@ async def html_to_pdf(input_path: str, output_path: str):
 
     async def handle_route(route, request):
         url = request.url
-        # print(url)
 
+        # Handle the prefixed '/' in style ref
         if "/style" in url:
-            # Parse and modify the URL
             new_url = url.replace(
                 "/style", os.path.join(os.getcwd(), "public") + "/style", 1
             )
-            # print(f"Redirecting: {url} -> {new_url}")
             await route.continue_(url=new_url)
         else:
             await route.continue_()
@@ -35,7 +36,6 @@ async def html_to_pdf(input_path: str, output_path: str):
 
         await page.goto(url, wait_until="networkidle")
         await page.emulate_media(media="screen")
-        # await page.wait_for_timeout(10000)
 
         await page.pdf(
             path=output_path,
@@ -48,8 +48,13 @@ async def html_to_pdf(input_path: str, output_path: str):
 
         await browser.close()
 
+if __name__ == '__main__':
+    arguments = docopt(__doc__, version='1.0')
+    input_html = arguments['<src>']
+    output_pdf = arguments['<dest>']
 
-# Convert Hugo page to PDF
-input_html = "public/index.html"  # Change to your file path
-output_pdf = "./result.pdf"
-asyncio.run(html_to_pdf(input_html, output_pdf))
+    if not os.path.exists(input_html):
+        print(f"Source file {input_html} does not exist")
+        sys.exit()
+
+    asyncio.run(html_to_pdf(input_html, output_pdf))

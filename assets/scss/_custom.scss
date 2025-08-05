@@ -34,7 +34,8 @@
     &__left {
         @media screen {
             &::after {
-                content: "2025 © by Andrew Selkirk";
+                // content: "2025 © by Andrew Selkirk";
+                content: "";
             }
         }
     }
