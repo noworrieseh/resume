@@ -6,6 +6,7 @@ build:
 	hugo --cleanDestinationDir
 
 pdf: build
+	pip install -r requirements.txt
 	./cnvt.py
 
 clean:
