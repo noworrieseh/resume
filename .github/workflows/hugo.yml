@@ -86,7 +86,7 @@ jobs:
               if: steps.playwright-cache.outputs.cache-hit != 'true' ||
                   steps.apt-cache.outputs.cache-hit != 'true'
               run: |
-                  playwright install --with-deps chromium
+                  uv run playwright install --with-deps chromium
 
             - name: Generate PDF
               run: |
