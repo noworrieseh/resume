@@ -40,16 +40,16 @@ jobs:
               with:
                   submodules: recursive
 
-            - name: Setup Python
-              uses: actions/setup-python@v5
-              with:
-                  python-version-file: ".python-version"
+            #- name: Setup Python
+            #  uses: actions/setup-python@v5
+            #  with:
+            #      python-version-file: ".python-version"
 
-            - name: Install uv
-              uses: astral-sh/setup-uv@v6
-              with:
-                  version: ${{ env.UV_VERSION }}
-                  enable-cache: true
+            #- name: Install uv
+            #  uses: astral-sh/setup-uv@v6
+            #  with:
+            #      version: ${{ env.UV_VERSION }}
+            #      enable-cache: true
 
             - name: Setup Hugo
               uses: peaceiris/actions-hugo@v3
