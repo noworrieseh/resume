@@ -63,7 +63,7 @@ jobs:
                   hugo --cleanDestinationDir --baseURL "${{ steps.pages.outputs.base_url }}/"
 
             - name: Generate PDF
-              uses: noworrieseh/hugo-pdf-action@v1
+              uses: noworrieseh/hugo-pdf-action@latest
               with:
                   source: "public/index.html"
                   pdf: "public/resume.pdf"
