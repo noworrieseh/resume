@@ -3,16 +3,19 @@ view:
 	hugo server --disableFastRender --openBrowser
 
 uv:
-	 curl -LsSf https://astral.sh/uv/install.sh | sh
+	curl -LsSf https://astral.sh/uv/install.sh | sh
 
 build:
-	hugo --cleanDestinationDir
+	@echo Generate website...
+	@hugo --cleanDestinationDir
 
 pdf: build
-	uv run cnvt.py public/index.html public/resume.pdf
+	@echo Generate PDF...
+	@uv run cnvt.py public/index.html public/resume.pdf
 
-testgh: .secrets
+testgh:
 	act
 
 clean:
-	rm -fr resources public *pdf
+	@echo Clean folder...
+	@rm -fr resources public *pdf
