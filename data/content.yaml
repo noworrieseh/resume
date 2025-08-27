@@ -6,7 +6,7 @@ BasicInfo:
         - Icon: fas fa-phone
           Info: "(226) 972-4561"
         - Icon: fas fa-envelope
-          Info: andrew@selkirk.dev
+          Info: career@selkirk.dev
         - Icon: fab fa-linkedin
           Info: '<a class="contact__link" href="https://linkedin.com/in/aselkirk/" target="_blank">in/aselkirk</a>'
         - Icon: fab fa-github
