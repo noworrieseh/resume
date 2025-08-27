@@ -4,7 +4,9 @@ name: Deploy Hugo site to Pages
 on:
     # Runs on pushes targeting the default branch
     push:
-        branches: ["main"]
+        #branches: ["main"]
+        tags:
+            - "v*"
 
     # Allows you to run this workflow manually from the Actions tab
     workflow_dispatch:
@@ -29,7 +31,7 @@ defaults:
 jobs:
     # Build job
     build:
-        runs-on: ubuntu-22.04
+        runs-on: ubuntu-latest
         env:
             HUGO_VERSION: 0.147.9
             DARTSASS_VERSION: 1.89.2
@@ -68,19 +70,52 @@ jobs:
                   source: "public/index.html"
                   pdf: "public/resume.pdf"
 
-            - name: Upload artifact
+            - name: Add version to PDF
+              run: |
+                  TAG_NAME="${GITHUB_REF##*/}"
+                  cp public/resume.pdf "public/resume-${TAG_NAME}.pdf"
+                  cp "public/resume-${TAG_NAME}.pdf" .
+
+            - name: Upload artifacts to Pages
               uses: actions/upload-pages-artifact@v3
               with:
                   path: ./public
+
+            - name: Upload resume
+              uses: actions/upload-artifact@v4
+              with:
+                  name: release-pdf
+                  path: ./resume*.pdf
 
     # Deployment job
     deploy:
         environment:
             name: github-pages
             url: ${{ steps.deployment.outputs.page_url }}
-        runs-on: ubuntu-22.04
+        runs-on: ubuntu-latest
         needs: build
         steps:
             - name: Deploy to GitHub Pages
               id: deployment
               uses: actions/deploy-pages@v4
+
+    release:
+        needs: build
+        runs-on: ubuntu-latest
+        permissions:
+            contents: write
+        steps:
+            - name: Download PDF artifact
+              uses: actions/download-artifact@v4
+              with:
+                  name: release-pdf
+                  path: ./release-assets
+
+            - name: Create GitHub Release
+              uses: softprops/action-gh-release@v1
+              with:
+                  files: ./release-assets/*.pdf
+                  draft: false
+                  prerelease: false
+              env:
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
