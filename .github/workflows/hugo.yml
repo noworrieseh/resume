@@ -69,7 +69,7 @@ jobs:
               with:
                   source: "public/index.html"
                   pdf: "public/resume.pdf"
-                  height: "15in"
+                  height: "13in"
 
             - name: Add version to PDF
               run: |

@@ -11,7 +11,7 @@ build:
 
 pdf: build
 	@echo Generate PDF...
-	@uv run cnvt.py public/index.html public/resume.pdf
+	@uv run cnvt.py public/index.html public/resume.pdf 13in
 
 testgh:
 	act
