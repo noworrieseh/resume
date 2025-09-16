@@ -28,9 +28,8 @@ Experience:
             Details:
                 - Delivered endoscopic medical device utilizing A.I. technologies.
                 - Architecture leadership. Established SDLC, provisioning, support, and IT processes
-                - Co-ordinate with company leads and external contractors
-                - On-site and on-call support
-                - Lead security review and successful PenTest of device
+                - Lead successful PenTest security review of device
+                - Co-ordinate with company leads, contractors and provided on-site and on-call support
                 - Projects include A/V processing, hardware, security, build automation, EMR REST integration, ISO13485 certification
             Badges:
                 - ISO13485
@@ -53,92 +52,40 @@ Experience:
     - Employer: Trustwave
       Place: Cambridge, ON
       Positions:
-          - Title: Senior Engineering Director
-            Date: 2017 - 2023
+          - Title: Senior Engineering Manager
+            Date: 2001 - 2023
             Details:
-                - Manage and support all SIEM products and appliances.
-                - R&D projects including general REST client, kubernetes, AWS deployments, Parsing editor
-                - Team career development, reviews and interview. Manage Co-ops
+                - Manage and support all SIEM products, agents, tier-3 team and escalations.
+                - Team career development and reviews.  Co-op advocate.
+                - Tooling and Infrastructure development including CI/CD, config management, dev tools
+                - Lead in high performance ETL processing platform
+                - Contributed to Common Criteria certification process
+                - Contributing inventor to “Self Learning Event Parser” patent <a href="https://patents.google.com/patent/US20070169038A1/en">(US20070169038A1)</a>
                 - Co-ordinate with VP, Product Management, Support, MSSP, engineering leads
             Badges:
                 - Java
+                - Linux
                 - Git
+                - Scripting
                 - JIRA
+                - MySQL
+                - Regex
                 - RESTful
                 - AWS
+                - Azure
+                - PXE
                 - Kubernetes
                 - Agile/Scrum
 
-          - Title: Engineering Director
-            Date: 2006 - 2017
-            Details:
-                - Manage software development projects
-                - Manage SIEM tier-3 engineering team and escalations
-                - Co-ordinate between Product Management, Customer Support, Development, QA, Documentation, and Executive teams
-                - Team career development, reviews and interviewing. Manage Co-ops
-                - Development projects including patch framework, image deployment, Windows agents
-                - Created tools including key generation, high load data generation, support diagnostics
-                - Administer legacy systems (JIRA, SVN, build)
-            Badges:
-                - Java
-                - Maven
-                - Git
-                - JIRA
-                - Confluence
-                - REST
-                - Scripting
-                - AWS
-                - PXE
-                - VMWare
-                - GPG
-                - Linux
-                - Azure
-                - Agile/Scrum
-
-          - Title: Development Manager
-            Date: 2004 - 2006
-            Details:
-                - Manage team of 10 on SIEM development and tier-3 support
-                - Contributed to Common Criteria certification process
-                - Designed and implemented data summarization framework for reporting
-                - Contributing inventor to “Self Learning Event Parser” patent <a href="https://patents.google.com/patent/US20070169038A1/en">(US20070169038A1)</a>
-            Badges:
-                - Java
-                - Quartz
-                - MS Project
-                - Regex
-                - JDBC
-                - MySQL
-                - SVN
-                - Agile/Scrum
-
-    - Employer: Intellitactics (Trustwave)
-      Place: Kitchener, ON
-      Positions:
-          - Title: Senior Developer/Team Lead
-            Date: 2001 - 2004
-            Details:
-                - Lead developer on thick client interface
-                - Implemented graph based subsystem for configuration and presentation
-                - Designed and implemented integrated build system
-            Badges:
-                - Java
-                - Swing
-                - Y-Files
-                - ANT
-                - CVS
-                - Starteam
-
     - Employer: Web Pearls
-      Place: Kitchener, ON
+      Place: Waterloo, ON
       Positions:
           - Title: Senior Developer
             Date: 1996 - 2001
             Details:
-                - Main developer in a startup in online educational software
-                - Lead developer of PearlServer client/server technology
+                - Lead developer in a startup in online educational software
                 - Provided technical leadership in OEM partnership deal with Waterloo Maple which incorporated PearlServer technology in their MapleNet offering
-                - Developed semantic OpenMath rendering technology in partnership with Simon Fraser University
+                - Developed semantic OpenMath rendering technology with Simon Fraser University
                 - Provided consulting services including business intelligence project
                 - Maintained IT infrastructure. Assisted in IT functions for sister companies
             Badges:
@@ -151,42 +98,31 @@ Experience:
                 - Bugzilla
                 - IT Admin
 
-    - Employer: Newbridge Networks
-      Place: Kanata, ON
+    - Employer: Projects
+      Place: Cambridge, ON
       Positions:
-          - Title: Co-op Developer
-            Date: 1993 - 1995
+          - Title: eh440 App
+            Date: 2016
             Details:
-                - Feature development of Newbridge MainStreet software
-                - Designed testing procedures for software support of SONET optical networks
-                - Worked for internal software tools group
-                - Evaluation of new Configuration Management system
-            Badges:
-                - Solaris
-                - C
-                - TCL/TK
-                - Bash
-                - STS
-                - Continuous
+                - Fan app for accapella group eh440 using Swift (<a href="https://youtu.be/iwCV1KU7m_g">Link</a>)
 
-    - Employer: Natural Resources Canada
-      Place: Ottawa, ON
-      Positions:
-          - Title: Co-op Developer
-            Date: 1991 - 1993
+          - Title: classpathx
+            Date: 2000
             Details:
-                - Supported a database for managing Canadian geophysical data for map generation
-                - Created data conversion tools between various formats of geophysical data
-            Badges:
-                - Solaris
-                - Fortran
+                - Open source implementation of Java API's including JavaMail, Activation (<a href="https://www.gnu.org/software/classpathx/">Link</a>)
+
+          - Title: Co-op Developer
+            Date: 1991 - 1995
+            Details:
+                - 3 terms @ Newbridge Networks as software developer, tester, and internal tools
+                - 3 terms @ Natural Resources Canada as developer maintaining geophysical data of Canada
 
 References:
     - Name: Terry Low
       Relation: VP of Development (Trustwave)
       Contacts:
           - Icon: fas fa-phone
-            Info: "(416) 804-3581‬"
+            Info: "(416) 804-3581"
           - Icon: fas fa-envelope
             Info: terry.em.low@gmail.com
           - Icon: fab fa-linkedin
@@ -198,10 +134,10 @@ Skills:
           - Team building
           - Priorization
           - Planning
-          - Mentoring
           - Project management
-          - ISO13485
+          - Mentoring
           - Tier 3 Support
+          - ISO13485
           - Common Criteria
 
     - Family: Programming
@@ -220,52 +156,21 @@ Skills:
           - Delphi
           - Maple
 
-    - Family: Specifications
-      Items:
-          - JSON
-          - YAML
-          - XML
-          - Regex
-          - SQL
-          - HTML
-          - CSS
-          - OpenMath
-
-    - Family: DevOps
-      Items:
-          - GitHub
-          - GitHub Actions
-          - Maven
-          - ANT
-          - Jenkins
-          - JIRA
-          - Confluence
-          - Bitbucket
-          - Bugzilla
-          - Git
-          - SVN
-          - CVS
-          - Starteam
-          - Grafana
-
-    - Family: Containers/VM
-      Items:
-          - Docker
-          - Compose
-          - Kubernetes
-          - Helm
-          - VMWare
-          - EC2
-          - LXC
-          - ProxMox
-
-    - Family: Cloud
+    - Family: Tooling
       Items:
           - AWS
-          - GCP
           - Azure
+          - GCP
+          - GitHub
+          - Atlassian
+          - Jenkins
+          - Maven
+          - Kubernetes
+          - Docker
+          - VMWare
+          - Grafana
 
-    - Family: Data Processing/Storage
+    - Family: Data
       Items:
           - MySQL
           - PostgreSQL
@@ -293,39 +198,16 @@ Skills:
       Items:
           - Windows
           - MacOS
-          - IOS
+          - iOS
           - Solaris
           - Linux (RHEL, SUSE, Ubuntu)
-
-    - Family: Frameworks
-      Items:
-          - RESTful
-          - SDEE
-          - Checkpoint
-          - Y-Files
-          - Windows Events
-          - Java Swing
-          - OpenCV
-          - Video4Linux
-          - eStreamer
 
     - Family: Software
       Items:
           - Microsoft Office/365
           - Google Workspace
 
-    - Family: Personal Projects
-      Items:
-          - Classpathx (2000)
-          - Eh440 IOS App (2016)
-
-    - Family: Interests
-      Items:
-          - Retro computers
-          - OneWheel
-          - Kayaking
-
 Diplomas:
-    - Bachelor of Mathematics, University of Waterloo (1995)
-    - SANS 503 Intrusion Detection In-Depth (2003)
+    - BMath, Waterloo University (1995)
+    - SANS 503 Detection In-depth (2003)
     - ISO13485 QMS Training (2023)
