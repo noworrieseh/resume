@@ -13,11 +13,11 @@ BasicInfo:
           Info: '<a class="contact__link" href="https://github.com/noworrieseh" target="_blank">gh/noworrieseh</a>'
 
 Profile: |
-    Experienced technical team leader from over 30 years in the tech sector, specializing
-    with strong analytical skills, managing product development, and fostering talent within
-    engineering teams. 20 years working on multi-tier high performance enterprise systems.
-    Successfully transitioned a startup A.I. company from an R&D project to a shipping device.
-    A strong believer in leading by example.
+    Experienced technical developer and team leader with over 25 years in the tech sector. Specializing
+    in guiding projects from conception to completion, managing product development, and fostering talent within
+    engineering teams. 20 years working on multi-tier high performance enterprise systems. configs:
+    Successfully transitioned a startup A.I. company from an R&D project to a working prototype. Leads by setting
+    the example with positive and effective communication, collaborative problem-solving and high-performance.
 
 Experience:
     - Employer: A.I. VALI
@@ -26,11 +26,11 @@ Experience:
           - Title: Senior Software Developer
             Date: 2023 - 2025
             Details:
-                - Delivered endoscopic medical device utilizing A.I. technologies.
-                - Architecture leadership. Established SDLC, provisioning, support, and IT processes
-                - Lead successful PenTest security review of device
-                - Co-ordinate with company leads, contractors and provided on-site and on-call support
-                - Projects include A/V processing, hardware, security, build automation, EMR REST integration, ISO13485 certification
+                - Delivered endoscopic medical device utilizing A.I. technologies
+                - Demonstrated leadership. Established SDLC, provisioning, support, and IT processes
+                - Led successful PenTest security review of device
+                - Co-ordinated with company leads, contractors and provided on-site and on-call support
+                - Oversaw projects including A/V processing, hardware, security, build automation, EMR REST integration, ISO13485 certification
             Badges:
                 - ISO13485
                 - Google Workspace
@@ -39,6 +39,7 @@ Experience:
                 - Docker
                 - JIRA
                 - AWS
+                - GCP
                 - RESTful
                 - Ubuntu
                 - GitHub Actions
@@ -49,26 +50,30 @@ Experience:
                 - IT Admin
                 - Agile/Scrum
 
-    - Employer: Trustwave
+    - Employer: Trustwave (Intellitactics)
       Place: Cambridge, ON
       Positions:
           - Title: Senior Engineering Manager
             Date: 2001 - 2023
             Details:
+                - Managed and supported all SIEM products, agents, tier-3 team and escalations successfully
                 - High performance ETL processing platform engineer
-                - External SIEM integrations engineering lead including REST and windows
-                - Tooling and Infrastructure engineer including CI/CD, config management, tools
-                - Manage and support all SIEM products, agents, tier-3 team and escalations.
-                - Team career development and reviews.  Co-op advocate.
-                - Contributed to Common Criteria certification process.
+                - SIEM integrations engineering lead including REST and windows
+                - Tooling and Infrastructure engineer including CI/CD, config management and tools
+                - Team career development, reviews, and co-op advocate
+                - Contributed to Common Criteria certification process
                 - Contributing inventor to “Self Learning Event Parser” patent <a href="https://patents.google.com/patent/US20070169038A1/en">(US20070169038A1)</a>
                 - Co-ordinate with VP, Product Management, Support, MSSP, engineering leads
             Badges:
                 - Java
+                - Maven
                 - Linux
                 - Git
+                - Gitlab
+                - Jenkins
                 - Scripting
                 - JIRA
+                - Confluence
                 - MySQL
                 - Regex
                 - RESTful
@@ -84,7 +89,7 @@ Experience:
           - Title: Senior Developer
             Date: 1996 - 2001
             Details:
-                - Lead developer in a startup in online educational software
+                - Lead developer for an online educational software startup
                 - Provided technical leadership in OEM partnership deal with Waterloo Maple which incorporated PearlServer technology in their MapleNet offering
                 - Developed semantic OpenMath rendering technology with Simon Fraser University
                 - Provided consulting services including business intelligence project
@@ -99,35 +104,36 @@ Experience:
                 - Bugzilla
                 - IT Admin
 
-    - Employer: Projects
-      Place: Cambridge, ON
-      Positions:
-          - Title: eh440 App
-            Date: 2016
-            Details:
-                - Fan app for accapella group eh440 using Swift (<a href="https://youtu.be/iwCV1KU7m_g">Link</a>)
-
-          - Title: classpathx
-            Date: 2000
-            Details:
-                - Open source implementation of Java API's including JavaMail, Activation (<a href="https://www.gnu.org/software/classpathx/">Link</a>)
-
-          - Title: Co-op Developer
-            Date: 1991 - 1995
-            Details:
-                - 3 terms @ Newbridge Networks as software developer, tester, and internal tools
-                - 3 terms @ Natural Resources Canada as developer maintaining geophysical data of Canada
+#    - Employer: Projects
+#      Place: Cambridge, ON
+#      Positions:
+#          - Title: eh440 iPhone App
+#            Date: 2016
+#            Details:
+#                - Fan app for accapella group eh440 using Swift (<a href="https://eh440.selkirk.dev/">eh440.selkirk.dev</a>)
+#
+#          - Title: classpathx
+#            Date: 2000
+#            Details:
+#                - Open source implementation of Java extension libs (<a href="https://classpathx.selkirk.dev/">classpathx.selkirk.dev</a>)
+#
+#          - Title: Co-op Developer
+#            Date: 1991 - 1995
+#            Details:
+#                - 3 terms @ Newbridge Networks as software developer, tester, and internal tools
+#                - 3 terms @ Natural Resources Canada as developer maintaining geophysical data of Canada
 
 References:
-    - Name: Terry Low
-      Relation: VP of Development (Trustwave)
-      Contacts:
-          - Icon: fas fa-phone
-            Info: "(416) 804-3581"
-          - Icon: fas fa-envelope
-            Info: terry.em.low@gmail.com
-          - Icon: fab fa-linkedin
-            Info: '<a class="contact__link" href="https://www.linkedin.com/in/terry-low-88388/" target="_blank">LinkedIn</a>'
+    - Name: Available upon request
+    #- Name: Terry Low
+    #  Relation: VP of Development (Trustwave)
+    #  Contacts:
+    #      - Icon: fas fa-phone
+    #        Info: "(416) 804-3581"
+    #      - Icon: fas fa-envelope
+    #        Info: terry.em.low@gmail.com
+    #      - Icon: fab fa-linkedin
+    #        Info: '<a class="contact__link" href="https://www.linkedin.com/in/terry-low-88388/" target="_blank">LinkedIn</a>'
 
 Skills:
     - Family: Leadership
@@ -169,7 +175,7 @@ Skills:
           - Kubernetes
           - Docker
           - VMWare
-          - Grafana
+          #- Grafana
 
     - Family: Data
       Items:
@@ -203,12 +209,13 @@ Skills:
           - Solaris
           - Linux (RHEL, SUSE, Ubuntu)
 
-    - Family: Software
-      Items:
-          - Microsoft Office/365
-          - Google Workspace
+    #- Family: Software
+    #  Items:
+    #      - Microsoft Office/365
+    #      - Google Workspace
 
 Diplomas:
-    - BMath, Waterloo University (1995)
-    - SANS 503 Detection In-depth (2003)
     - ISO13485 QMS Training (2023)
+    - ElasticSearch Optimization (2022)
+    - SANS503 Threat Detection (2003)
+    - BMath/CS, Waterloo Univ (1995)

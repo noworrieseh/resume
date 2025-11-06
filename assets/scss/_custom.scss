@@ -13,6 +13,12 @@
 }
 
 .sideSection {
+    margin-bottom: 0rem;
+    &__heading {
+        margin-bottom: 0rem;
+    }
+}
+.section {
     margin-bottom: 1rem;
 }
 
@@ -23,6 +29,9 @@
         }
         margin-bottom: 1px;
         margin-top: 1px;
+    }
+    &__job {
+        margin-bottom: 1rem;
     }
 
     &__bullet {

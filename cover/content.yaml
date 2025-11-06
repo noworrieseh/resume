@@ -1,0 +1,116 @@
+BasicInfo:
+    FirstName: Andrew
+    LastName: Selkirk
+    Photo: img/avatar.png
+    Contacts:
+        - Icon: fas fa-phone
+          Info: "(226) 972-4561"
+        - Icon: fas fa-envelope
+          Info: career@selkirk.dev
+        - Icon: fab fa-linkedin
+          Info: '<a class="contact__link" href="https://linkedin.com/in/aselkirk/" target="_blank">in/aselkirk</a>'
+        - Icon: fab fa-github
+          Info: '<a class="contact__link" href="https://github.com/noworrieseh" target="_blank">gh/noworrieseh</a>'
+
+Profile: |
+    Experienced technical team leader from over 30 years in the tech sector, specializing
+    with strong analytical skills, managing product development, and fostering talent within
+    engineering teams. 20 years working on multi-tier high performance enterprise systems.
+    Successfully transitioned a startup A.I. company from an R&D project to a shipping device.
+    A strong believer in leading by example.
+
+
+References:
+    - Name: Terry Low
+      Relation: VP of Development (Trustwave)
+      Contacts:
+          - Icon: fas fa-phone
+            Info: "(416) 804-3581"
+          - Icon: fas fa-envelope
+            Info: terry.em.low@gmail.com
+          - Icon: fab fa-linkedin
+            Info: '<a class="contact__link" href="https://www.linkedin.com/in/terry-low-88388/" target="_blank">LinkedIn</a>'
+
+Skills:
+    - Family: Leadership
+      Items:
+          - Team building
+          - Priorization
+          - Planning
+          - Project management
+          - Mentoring
+          - Tier 3 Support
+          - ISO13485
+          - Common Criteria
+
+    - Family: Programming
+      Items:
+          - Java
+          - Python
+          - C/C++
+          - Scripting
+          - Swift
+          - JS
+          - JSP
+          - PHP
+          - TCL/TK
+          - Perl
+          - Fortran
+          - Delphi
+          - Maple
+
+    - Family: Tooling
+      Items:
+          - AWS
+          - Azure
+          - GCP
+          - GitHub
+          - Atlassian
+          - Jenkins
+          - Maven
+          - Kubernetes
+          - Docker
+          - VMWare
+          - Grafana
+
+    - Family: Data
+      Items:
+          - MySQL
+          - PostgreSQL
+          - SQLServer
+          - Oracle
+          - SQLite3
+          - HSQLDB
+          - Kafka
+          - ElasticSearch
+          - OpenSearch
+          - S3
+
+    - Family: Networking
+      Items:
+          - Tailscale
+          - OpenVPN
+          - DNS
+          - DHCP
+          - PXE
+          - iptables
+          - Ubiquity
+          - Security
+
+    - Family: Systems
+      Items:
+          - Windows
+          - MacOS
+          - iOS
+          - Solaris
+          - Linux (RHEL, SUSE, Ubuntu)
+
+    - Family: Software
+      Items:
+          - Microsoft Office/365
+          - Google Workspace
+
+Diplomas:
+    - BMath, Waterloo University (1995)
+    - SANS 503 Detection In-depth (2003)
+    - ISO13485 QMS Training (2023)
