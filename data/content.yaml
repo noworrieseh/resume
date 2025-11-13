@@ -15,7 +15,7 @@ BasicInfo:
 Profile: |
     Experienced technical developer and team leader with over 25 years in the tech sector. Specializing
     in guiding projects from conception to completion, managing product development, and fostering talent within
-    engineering teams. 20 years working on multi-tier high performance enterprise systems. configs:
+    engineering teams. 20 years working on multi-tier high performance enterprise systems.
     Successfully transitioned a startup A.I. company from an R&D project to a working prototype. Leads by setting
     the example with positive and effective communication, collaborative problem-solving and high-performance.
 
@@ -63,7 +63,7 @@ Experience:
                 - Team career development, reviews, and co-op advocate
                 - Contributed to Common Criteria certification process
                 - Contributing inventor to “Self Learning Event Parser” patent <a href="https://patents.google.com/patent/US20070169038A1/en">(US20070169038A1)</a>
-                - Co-ordinate with VP, Product Management, Support, MSSP, engineering leads
+                - Co-ordinated with VP, Product Management, Support, MSSP, engineering leads
             Badges:
                 - Java
                 - Maven
@@ -89,11 +89,11 @@ Experience:
           - Title: Senior Developer
             Date: 1996 - 2001
             Details:
-                - Lead developer for an online educational software startup
+                - Led development for an online educational software startup
                 - Provided technical leadership in OEM partnership deal with Waterloo Maple which incorporated PearlServer technology in their MapleNet offering
                 - Developed semantic OpenMath rendering technology with Simon Fraser University
                 - Provided consulting services including business intelligence project
-                - Maintained IT infrastructure. Assisted in IT functions for sister companies
+                - Maintained IT infrastructure for Web Pearls and sister companies
             Badges:
                 - Java
                 - AWT/Swing
