@@ -1,0 +1,7 @@
+{{ if .Cover }}
+<div id="cover" class="section">
+    <div class="section__content">
+        <p>{{ .Cover | safeHTML | emojify }}</p>
+    </div>
+</div>
+{{ end }}

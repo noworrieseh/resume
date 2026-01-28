@@ -2,3 +2,6 @@
   [[module.mounts]]
     source = "cover"
     target = "data"
+[[module.mounts]]
+    source = "data"
+    target = "data"

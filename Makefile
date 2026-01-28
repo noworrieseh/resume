@@ -1,10 +1,16 @@
 BASE_CFG := hugo.toml
 COVER_CFG := $(BASE_CFG),hugo-cover.toml
 CONFIG := $(BASE_CFG)
+NAME := resume.pdf
+SIZE := 13
 
-ifeq ($(filter cover,$(MAKECMDGOALS)),cover)
-    # If 'cover' is requested, override CONFIG
+ifdef COVER
+    _setup := $(shell [ ! -d $(COVER) ] && mkdir $(COVER) && cp cover-default.yaml $(COVER)/content.yaml)
+    _cover := $(shell [ -e cover ] && rm cover)
+    _ln := $(shell ln -sf $(COVER) cover)
     CONFIG := $(COVER_CFG)
+    NAME := $(COVER)-cover.pdf
+    SIZE := 11
 endif
 
 .PHONY: cover
@@ -17,11 +23,11 @@ uv:
 
 build:
 	@echo Generate website...
-	@hugo --cleanDestinationDir
+	@hugo --cleanDestinationDir --config $(CONFIG)
 
 pdf: build
 	@echo Generate PDF...
-	@uv run cnvt.py public/index.html public/resume.pdf 11in
+	@uv run cnvt.py public/index.html public/$(NAME) $(SIZE)in
 
 testgh:
 	act
@@ -29,3 +35,4 @@ testgh:
 clean:
 	@echo Clean folder...
 	@rm -fr resources public *pdf
+	@rm -f cover
