@@ -26,7 +26,7 @@ Experience:
       - Title: Open Source Developer
         Date: 2000 - 2026
         Details:
-          - FUSE File Provider - Apple File Provider extension for FUSE filesystems using Swift/C (2026)
+          - FUSE File Provider - Apple extension for FUSE filesystems using Swift (2026)
           - gomfs - Command-line tool to access MooseFS filesystem using Go (2026)
           - macdisp - Command-line tool for macOS display using Rust (2025)
           - eh440 - Fan app for accapella group eh440 using Swift (2016)
@@ -36,6 +36,7 @@ Experience:
           - Go
           - Swift
           - Rust
+          - AI Assisted
           - GitHub
 
   - Employer: A.I. VALI
@@ -167,6 +168,7 @@ Skills:
 
   - Family: Programming
     Items:
+      - AI Assisted
       - Java
       - Python
       - C/C++
